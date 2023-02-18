@@ -8,10 +8,10 @@ import { Pokemon } from '../pokemon';
     <app-pokemon-form [pokemon]="pokemon"></app-pokemon-form>
   `
 })
-export class AddPokemonComponent implements OnInit{
+export class AddPokemonComponent implements OnInit {
   pokemon: Pokemon
 
   ngOnInit(): void {
-      this.pokemon = new Pokemon()
+    this.pokemon = new Pokemon()
   }
 }
